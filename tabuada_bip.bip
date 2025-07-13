@@ -1,0 +1,34 @@
+inteiro multiplica(inteiro a, inteiro c) 
+declaracoes 
+   inteiro i, result 
+inicio 
+   result <- 0 
+   para i <- 1 ate c passo 1 
+      result<-result+a 
+   fimpara 
+   retornar result 
+fim 
+
+procedimento principal()
+declaracoes
+	inteiro x
+	inteiro y
+	inteiro  a
+	inteiro c
+
+inicio
+
+	leia (x)
+	
+	escreva (multiplica(x, 1))
+	escreva (multiplica(x, 2))
+	escreva (multiplica(x, 3))
+	escreva (multiplica(x, 4))
+	escreva (multiplica(x, 5))
+	escreva (multiplica(x, 6))
+	escreva (multiplica(x, 7))	
+	escreva (multiplica(x, 8))
+	escreva (multiplica(x, 9))
+	escreva (multiplica(x, 10))
+	
+fim
